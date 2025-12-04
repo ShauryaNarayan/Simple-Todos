@@ -1,1 +1,68 @@
 /* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.app-card {
+  background-color: #f7c6a3; /* light peach outer card */
+  padding: 40px 30px;
+  width: 500px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-card {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  width: 430px;
+  border-radius: 12px;
+}
+
+.heading {
+  font-size: 32px;
+  color: #fa7257;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.add-todo-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 70%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.add-button {
+  background-color: #fa7257;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.add-button:hover {
+  background-color: #e35e48;
+}
+
+.todosList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
